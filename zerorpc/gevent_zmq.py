@@ -40,6 +40,13 @@ from logging import getLogger
 
 logger = getLogger(__name__)
 
+DEALER = _zmq.DEALER
+PUB = _zmq.PUB
+PULL = _zmq.PULL
+PUSH = _zmq.PUSH
+ROUTER = _zmq.ROUTER
+SUB = _zmq.SUB
+
 
 class Context(_zmq.Context):
 
